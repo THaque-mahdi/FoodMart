@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodmart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">
+            <h1>FOODMART</h1>
+        </a>
+
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="index.html#cuisines">Cuisines</a>
+            <a href="index.html#restaurant">Restaurant</a>
+            <a href="index.html#about">About US</a>
+            <a href="index.html#review">Review</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-location-dot" id="location-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search for Restaurants and Cuisines">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <spam class="fas fa-times"></spam>
+                <img src="img/kachibiryani.jpeg" alt="">
+                <div class="content">
+                    <h3>Kacchi Biryani</h3>
+                    <div class="price">TK 260</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <spam class="fas fa-times"></spam>
+                <img src="img/ZingerB.jpeg" alt="">
+                <div class="content">
+                    <h3>Zinger Burgar</h3>
+                    <div class="price">TK 150</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <spam class="fas fa-times"></spam>
+                <img src="img/chocletshake.jpeg" alt="">
+                <div class="content">
+                    <h3>Choclet Shake</h3>
+                    <div class="price">Tk 80</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <spam class="fas fa-times"></spam>
+                <img src="img/Firni.jpeg" alt="">
+                <div class="content">
+                    <h3>Special Firni</h3>
+                    <div class="price">TK 60</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+
+        <div class="location-form">
+            <input type="search" id="location-box" placeholder="Add new address">
+            <label for="location-box" class="fas fa-location-dot"></label>
+        </div>
+    </header>
+
+    <section class="hotel container">
+        <div class="name">
+            <img src="img/Al-baik.png" alt="">
+            <h2>Al-Baik</h2>
+        </div>
+        <div class="distance">
+            <p>3.5km away | tk 35 delivery </p>
+            <button>More info</button>
+        </div>
+        <div class="star">
+            <p><span><i class="fa-regular fa-star"></i> 4.5</span> 1000+ rating</p>
+            <button>see review</button>
+        </div>
+        <div class="state">
+            <span><i class="fa-regular fa-clock"></i> Delivery: 45 - 60 min</span>
+        </div>
+    </section>
+
+    <section class="food_menu container">
+
+        <div class="food_opt">
+            <h2>Food Menu</h2>
+            <div class="option">
+                <a href="#popular">Popular</a>
+                <a href="#snacks">Snacks</a>
+                <a href="#Burgers">Burgers</a>
+                <a href="#Pizzas">Pizzas</a>
+                <a href="#Pastas">Pastas</a>
+                <a href="#Kebab_Grill">Kebab & Grill</a>
+                <a href="#Sides">Sides</a>
+                <a href="#dessert">Dessert</a>
+                <a href="#juice_shakes">Juice & Shakes</a>
+            </div>
+        </div>
+
+        <h3 id="popular">Populer</h3>
+
+        <div class="menu">
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/friedchicken.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Fried Chicken</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 160</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/cheesepizza.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Cheese Pizza</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 210</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/chickenchaap.png" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Fried Chicken Chaap</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 145</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/grilledchicken.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Grilled Checken</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 200</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/ChickenShawarma.jpg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Chicken Shawarma</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 120</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/chickennuggets.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Chicken Nuggets</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 160</span>
+            </article>
+        </div>
+
+        <h3 id="snacks">Snacks</h3>
+
+        <div class="menu">
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/eggomlet.jpg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Egg Omelette</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 20</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/ChickenShawarma.jpg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Chicken Shawarma</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 120</span>
+            </article>
+        </div>
+
+        <h3 id="Burgers">Burgers</h3>
+
+        <div class="menu">
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/chickenB.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Checken Burgar</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 150</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/beefB.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Beef Burgar</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 170</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/ZingerB.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Zinger Burgar</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 150</span>
+            </article>
+        </div>
+
+        <h3 id="Pizzas">Pizzas</h3>
+
+        <div class="menu">
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/cheesepizza.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Cheese Pizza</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 210</span>
+            </article>
+            
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/chickenpizza.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Chicken Pizza</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 240</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/paparonipizza.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Papa ronis Pizza</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 200</span>
+            </article>
+        </div>
+
+        <h3 id="Pastas">Pastas</h3>
+
+        <div class="menu">
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/pasta.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Chicken Alfredo Pasta</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 140</span>
+            </article>
+            
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/redpasta.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Red Souce Pasta</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 160</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/spegeti.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Spaghetti</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 150</span>
+            </article>
+        </div>
+
+        <h3 id="Kebab_Grill">Kebab & Grill</h3>
+
+        <div class="menu">
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/chickentikka.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Chicken Tikka</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 180</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/bbqchicken.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>BBQ Chicken Chaap</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 190</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/chickenchaap.png" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Fried Chicken Chaap</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 145</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/grilledchicken.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Grilled Checken</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 200</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/beefchaap.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Fried Beef Chaap</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 160</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/beefkebab.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Beef Sheek Kebab</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 145</span>
+            </article>
+        </div>
+    
+        <h3 id="Sides">Sides</h3>
+
+        <div class="menu">
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/friedchicken.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Fried Chicken (2/4/6 pieces)</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 250/ TK 480/ TK 700</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/frenchfries.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>French Fries</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 120</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/chickennuggets.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Chicken Nuggets</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 200</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/garlicbread.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Garlic Bread</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 100</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/onionrings.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Onion Rings</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 150</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/mashpotato.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Mashed Potato</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 130</span>
+            </article>
+        </div>
+
+        <h3 id="dessert">Dessert</h3>
+
+        <div class="menu">
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/Firni.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Special Firni</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 30</span>
+            </article>
+            
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/Mishti Doi.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Mishti Doi</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 30</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/Pudding.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Pudding</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 60</span>
+            </article>
+        </div>
+
+        <h3 id="juice_shakes">Juice & Shakes</h3>
+
+        <div class="menu">
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/mangojuice.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Mango Juice</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 170</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/maltajuice.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Malta Juice</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 110</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/PomegranateJuice.webp" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Pomegranate Juice</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 160</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/lassi.jpg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Lassi</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 60</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/chocletshake.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Choclet Shake</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 80</span>
+            </article>
+
+            <article class="food">
+                <div class="foods_image">
+                    <img src="img/strawberryshake.jpeg" alt="">
+                </div>
+                <div class="food_info">
+                    <p>Strawberry Shake</p>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <span>TK 80</span>
+            </article>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-p1">
+            <h1>FOODMART</h1>
+            <p>Order now to enjoy fresh food.</p>
+        </div>
+        <div class="footer-p2">
+            <h1>CONTACT</h1>
+            <p>Email: crack404websol@gmail.com</p>
+            <p>&copy; 2024 developed by _crack_404</p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodmart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="" class="logo">
+            <h1>FOODMART</h1>
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#cuisines">Cuisines</a>
+            <a href="#restaurant">Restaurant</a>
+            <a href="#about">About US</a>
+            <a href="#review">Review</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-location-dot" id="location-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search for Restaurants and Cuisines">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <spam class="fas fa-times"></spam>
+                <img src="img/kachibiryani.jpeg" alt="">
+                <div class="content">
+                    <h3>Kacchi Biryani</h3>
+                    <div class="price">TK 260</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <spam class="fas fa-times"></spam>
+                <img src="img/ZingerB.jpeg" alt="">
+                <div class="content">
+                    <h3>Zinger Burgar</h3>
+                    <div class="price">TK 150</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <spam class="fas fa-times"></spam>
+                <img src="img/chocletshake.jpeg" alt="">
+                <div class="content">
+                    <h3>Choclet Shake</h3>
+                    <div class="price">Tk 80</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <spam class="fas fa-times"></spam>
+                <img src="img/Firni.jpeg" alt="">
+                <div class="content">
+                    <h3>Special Firni</h3>
+                    <div class="price">TK 60</div>
+                </div>
+            </div>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+
+        <div class="location-form">
+            <input type="search" id="location-box" placeholder="Add new address">
+            <label for="location-box" class="fas fa-location-dot"></label>
+        </div>
+    </header>
+
+    <section class="home container" id="home">
+        <div class="content">
+            <h3>Satisfy your cravings with every bite</h3>
+            <p>Delicious meals delivered fast at your doorstep daily. order now and savor every bite!</p>
+            <a href="#" class="btn">Order now</a>
+        </div>
+        <img src="img/home-img.webp" alt="">
+    </section>
+
+    <section class="cuisines container" id="cuisines">
+        <h2>Cuisines</h2>
+        <div class="services-content">
+            <div class="ser-box">
+                <img src="img/Bengalicuisines.jpg" alt="">
+                <p>Bengali</p>
+            </div>
+
+            <div class="ser-box">
+                <img src="img/Mughlaicuisines.webp" alt="">
+                <p>Mughlai</p>
+            </div>
+
+            <div class="ser-box">
+                <img src="img/chinesecuisines.jpg" alt="">
+                <p>Chinese</p>
+            </div>
+
+            <div class="ser-box">
+                <img src="img/middleeastcuisines.jpeg" alt="">
+                <p>Middle Eastern</p>
+            </div>
+
+            <div class="ser-box">
+                <img src="img/continentcuisines.jpg" alt="">
+                <p>Continental</p>
+            </div>
+
+            <div class="ser-box">
+                <img src="img/fastfoodcuisines.jpg" alt="">
+                <p>Fast Food</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="restaurant container" id="restaurant">
+        <h2> Restaurant </h2>
+        <div class="restaurant-content">
+            <a href="pachbai.html">
+                <div class="restaurant-box">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <img src="img/pach-bai.png" alt="">
+                    <h2>Pach Vai Restaurant</h2>
+                    <p>Zindabazar, Sylhet</p>
+                    <span>
+                        <i class="fa-regular fa-clock"></i> Delivery: 25 - 40 min | 
+                        <i class="fa-solid fa-person-biking"></i> TK 12
+                    </span>
+                </div>
+            </a>
+
+            <a href="panshi.html">
+                <div class="restaurant-box">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <img src="img/panshi.jpeg" alt="">
+                    <h2>Panshi Restaurant</h2>
+                    <p>Zindabazar, Sylhet</p>
+                    <span>
+                        <i class="fa-regular fa-clock"></i> Delivery: 25 - 40 min | 
+                        <i class="fa-solid fa-person-biking"></i> TK 12
+                    </span>
+                </div>
+            </a>
+            <a href="kutumbari.html">
+                <div class="restaurant-box">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <img src="img/kutumbari.png" alt="">
+                    <h2>Kutum Bari Restaurant</h2>
+                    <p>Amberkhana, Sylhet</p>
+                    <span>
+                        <i class="fa-regular fa-clock"></i> Delivery: 10 - 20 min | 
+                        <i class="fa-solid fa-person-biking"></i> TK 08
+                    </span>
+                </div>
+            </a>
+            <a href="woondal.html">
+                <div class="restaurant-box">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <img src="img/woondal.jpeg" alt="">
+                    <h2>Woondal King Kebab</h2>
+                    <p>Zindabazar, Sylhet</p>
+                    <span>
+                        <i class="fa-regular fa-clock"></i> Delivery: 25 - 40 min | 
+                        <i class="fa-solid fa-person-biking"></i> TK 12
+                    </span>
+                </div>
+            </a>
+            <a href="albaik.html">
+                <div class="restaurant-box">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <img src="img/Al-baik.png" alt="">
+                    <h2>Al-Baik Restaurant</h2>
+                    <p>Subhanighat, Sylhet</p>
+                    <span>
+                        <i class="fa-regular fa-clock"></i> Delivery: 45 - 60 min | 
+                        <i class="fa-solid fa-person-biking"></i> TK 35
+                    </span>
+                </div>
+            </a>
+            <a href="blueplam.html">
+                <div class="restaurant-box">
+                    <i class="fa-regular fa-heart heart-icon"></i>
+                    <img src="img/blue-plam.webp" alt="">
+                    <h2>Blue Plam Continental</h2>
+                    <p> Mirzajangal, Sylhet</p>
+                    <span>
+                        <i class="fa-regular fa-clock"></i> Delivery: 35 - 50 min | 
+                        <i class="fa-solid fa-person-biking"></i> TK 17
+                    </span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="about container" id="about">
+        <div class="row">
+            <div class="image">
+                <img src="img/Delivery-amico.svg">
+            </div>
+            <div class="content">
+                <h2>About Us?</h2>
+                <p>Welcome to Foodmart, your go-to destination for delicious meals delivered right to your doorstep. Founded with the mission to bring the best of local cuisine directly to you, we connect food lovers with a curated selection of top-notch restaurants in your area. Our platform is designed to make your dining experience seamless and enjoyable, whether youre craving traditional Bengali dishes or international flavors.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="review container" id="review">
+        <h2>Customer's Reviews</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="review-box">
+                        <img src="img/tanmoy.jpg" alt="">
+                        <h2>Tanmoy Haque</h2>
+                        <span>Absolutely delicious!<br>Every bite was a treat.</span>
+                        <p>I ordered the grilled chicken with garlic sauce and it was cooked to perfection. The flavors were well-balanced, and it arrived hot and fresh. Highly recommend!</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="review-box">
+                        <img src="img/anik.webp" alt="">
+                        <h2>Anik Alam</h2>
+                        <span>Quick delivery and great service!<br>Will order again.</span>
+                        <p>The pizza I ordered was delivered in less than 30 minutes, and it was still piping hot. The crust was crispy, and the toppings were generous. Very satisfied!</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="review-box">
+                        <img src="img/jhalok.avif" alt="">
+                        <h2>Jhalok Chandra</h2>
+                        <span>Amazing flavors!<br>The best sushi I've had in town.</span>
+                        <p>The sushi platter was beautifully presented and tasted even better. The fish was fresh, and the rolls were packed with flavor. Can't wait to try more!</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="review-box">
+                        <img src="img/atul.jpg" alt="">
+                        <h2>Atul Das</h2>
+                        <span>Great vegetarian options!<br>Full of taste and freshness.</span>
+                        <p>I ordered the vegetable stir-fry and it was delightful. The vegetables were crunchy, and the sauce was bursting with flavor. Perfect for a healthy meal!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-p1">
+            <h1>FOODMART</h1>
+            <p>Order now to enjoy fresh food.</p>
+        </div>
+        <div class="footer-p2">
+            <h1>CONTACT</h1>
+            <p>Email: crack404websol@gmail.com</p>
+            <p>&copy; 2024 developed by _crack_404</p>
+        </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
